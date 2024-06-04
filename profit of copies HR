@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,a,b;
+    scanf("%d%d%d",&x,&a,&b);
+    int z=x*a-x*b;
+    int profit=z-100;
+    printf("%d",profit);
+    
+    
+
+   
+    return 0;
+}
