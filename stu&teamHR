@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n,i;
+    scanf("%d%d",&n,&i);
+    int a=n/i;
+    int b=n%i;
+    printf("The number of students in each team is %d and left out is %d",a,b);
+    
+    return 0;
+}
