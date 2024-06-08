@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int ch,a;
+    scanf("%d",&ch);
+    if(ch<=200)
+    {
+        a=ch*0.5;
+        printf("Rs.%d",a);
+    }
+    else if(ch<=400)
+    {
+        a=ch*0.65+100;
+        printf("Rs.%d",a);
+    }
+    else if(ch<=600)
+    {
+        a=ch*0.80+200;
+        printf("Rs.%d",a);
+    }
+    else
+    {
+        a=ch*1.25+425;
+        printf("Rs.%d",a);
+    }
+    
+
+
+       
+    return 0;
+}
