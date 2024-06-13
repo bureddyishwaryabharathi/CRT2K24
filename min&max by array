@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int n,i,a[5],min,max;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+        
+    }
+    for(i=1,min=a[0],max=a[0];i<n;i++){
+       if(min>a[i]){
+       min=a[i];
+       }
+      if(max<a[i]){
+        max=a[i];
+     }
+    }
+    printf("%d ",min);
+    printf("%d ",max);
+    // Write C code here
+   
+    return 0;
+}
